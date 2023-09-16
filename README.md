@@ -12,11 +12,14 @@ Replacements have to be specified in a .json file, the format should be:<br/>
 }
 ```
 
-### Running the program
-**Requires** at least one argument: *source folder/file path* (absolute or relative)<br/>
-As second argument, you can specify another path for replacement .json file, the default value is *replaceDict.json*
-
-### Attention
+### ATTENTION:
 It will replace text in every file within the source folder and below.<br/>
 The files must be encoded in utf-8, otherwise they will not be opened.<br/>
 **Be careful, there will be no confirmation message and changes cannot be undone**
+
+### LAUNCH:
+**Requires** at least one argument: *source folder/file path* (absolute or relative)<br/>
+As second argument, you can specify another path for replacement .json file, the default value is *replaceDict.json*
+```
+python TextReplacer [source folder/file path] [replaceDict path (optional)]
+```
