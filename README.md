@@ -1,4 +1,4 @@
-# ProjectReplacer
+# Text Replacer
 User friendly tool to replace certain text patterns in your project folders / files
 
 Replaces regular text or text pattern (regex) of your project.<br/>
